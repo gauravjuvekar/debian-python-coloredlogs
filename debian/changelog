@@ -1,4 +1,4 @@
-coloredlogs (5.2-1) UNRELEASED; urgency=low
+coloredlogs (5.2-1) experimental; urgency=low
 
   * Initial release. (Closes: #780187)
 
