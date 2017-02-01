@@ -1,0 +1,3 @@
+# The coloredlogs package provides a helper command for a primarily
+# library-only packge.
+coloredlogs: application-in-library-section

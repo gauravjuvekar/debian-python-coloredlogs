@@ -5,13 +5,13 @@ Source: https://coloredlogs.readthedocs.io
 
 Files: *
 Copyright: (c) 2015 Peter Odding
-License: 
+License: Expat
 
 Files: debian/*
-Copyright: 2017 © Gaurav Juvekar <gauravjuvekar@gmail.com>
-License: 
+Copyright: 2017 Gaurav Juvekar <gauravjuvekar@gmail.com>
+License: Expat
 
-License: 
+License: Expat
  Copyright (c) 2015 Peter Odding
  .
  Permission is hereby granted, free of charge, to any person obtaining

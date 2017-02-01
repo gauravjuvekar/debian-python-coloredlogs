@@ -1,6 +1,18 @@
 #! /usr/bin/make -f
 
-export PYBUILD_NAME=coloredlogs
-export PYBUILD_AFTER_INSTALL_python2=rm -rf {destdir}/usr/bin/
+# Used as per the example from www.v13.gr/blog/?p=412
+#DPKG_EXPORT_BUILDFLAGS = 1
+
+#export DH_VERBOSE = 1
+#export PYBUILD_NAME=coloredlogs
+#export PYBUILD_AFTER_INSTALL_python2=rm -rf {destdir}/usr/bin/
+#export PYBUILD_AFTER_INSTALL_python3=rm -rf {destdir}/usr/bin/
+export PYBUILD_INSTALL_ARGS_python2 = --install-scripts=/dev/null
+#export PYBUILD_INSTALL_ARGS_python3 = --install-scripts=/dev/null
+
 %:
-	dh $@ --with python2,python3 --buildsystem=pybuild
+	dh $@ --with python3,python2 --buildsystem=pybuild
+
+override_dh_auto_test:
+	# Do no thing as testing depends on python-verboselogs which is not yet
+	# packaged
