@@ -1,4 +1,4 @@
-Source: coloredlogs
+Source: python-coloredlogs
 Section: python
 Priority: optional
 Maintainer: Gaurav Juvekar <gauravjuvekar@gmail.com>
