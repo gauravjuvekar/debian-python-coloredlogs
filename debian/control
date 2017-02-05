@@ -41,16 +41,3 @@ Description: Colored terminal output for the logging module in Python3
  customized with environment variables as well as programmatically.
  .
  This package provides the module for Python3.
-
-Package: coloredlogs
-Architecture: all
-Depends: python3-coloredlogs, ${misc:Depends}, ${python3:Depends},
-Recommends: ${python3:Recommends}
-Suggests: ${python3:Suggests}
-Description: Convert colored logs with ANSI escape sequences to HTML files.
- The coloredlogs command can be used to convert the output of any command
- containing ANSI escape sequences to an HTML format. It supports normal text,
- bold text, and any standard ANSI color codes
- .
- This package provides the coloredlogs command based on the Python3 library of
- the same name.

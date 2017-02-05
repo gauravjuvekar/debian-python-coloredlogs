@@ -1,6 +1,6 @@
 coloredlogs (5.2-1) experimental; urgency=low
 
   * Initial release. (Closes: #780187)
+  * Remove binary package coloredlogs.
 
  -- Gaurav Juvekar <gauravjuvekar@gmail.com>  Sun, 29 Jan 2017 19:30:15 +0000
-
